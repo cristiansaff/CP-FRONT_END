@@ -1,26 +1,106 @@
-*{margin:0;padding:0;box-sizing:border-box;}
-body{font-family:'Inter',sans-serif;background:#d9d3dc;color:#2b2b2b;}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-.container{max-width:1100px;margin:auto;padding:60px 20px;}
+body{
+  font-family:'Poppins', sans-serif;
+  background:#d9d3dc;
+  color:#2b2b2b;
+}
 
-.hero{height:340px;background:url("./images/banner.jpg") center/cover no-repeat;display:flex;align-items:center;}
-.hero h1{font-family:'Playfair Display',serif;color:#fff;font-size:36px;letter-spacing:3px;}
+.container{
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
 
-.section h2{font-family:'Playfair Display',serif;color:#2f5d6c;font-size:24px;margin-bottom:20px;}
-.section p{line-height:1.7;margin-bottom:10px;font-size:14px;}
+.hero{
+  height:340px;
+  background:url("./images/banner.jpg") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+}
 
-.flex{display:flex;gap:50px;align-items:center;}
-.flex img{width:420px;border-radius:10px;}
+.hero h1{
+  font-family:'Limelight', cursive;
+  color:#fff;
+  font-size:36px;
+  letter-spacing:3px;
+}
 
-.cards{display:flex;gap:25px;margin-top:20px;}
-.card{flex:1;background:#8faec3;padding:30px;border-radius:14px;text-align:center;}
-.card h3{margin-bottom:10px;}
-.card span{font-size:14px;}
-.destaque{background:#4c6b7a;color:#fff;}
+.section h2{
+  font-family:'Limelight', cursive;
+  color:#2f5d6c;
+  font-size:24px;
+  margin-bottom:20px;
+}
 
-.gallery{display:flex;gap:20px;margin-top:20px;}
-.gallery img{width:200px;height:200px;object-fit:cover;border-radius:20px;}
+.section p{
+  line-height:1.7;
+  margin-bottom:10px;
+  font-size:14px;
+}
 
-.contato p{margin:6px 0;}
+.flex{
+  display:flex;
+  gap:50px;
+  align-items:center;
+}
 
-footer{background:#0d4b5c;color:#fff;text-align:center;padding:30px 0;}
+.flex img{
+  width:420px;
+  border-radius:10px;
+}
+
+.cards{
+  display:flex;
+  gap:25px;
+  margin-top:20px;
+}
+
+.card{
+  flex:1;
+  background:#8faec3;
+  padding:30px;
+  border-radius:14px;
+  text-align:center;
+}
+
+.card h3{
+  margin-bottom:10px;
+}
+
+.card span{
+  font-size:14px;
+}
+
+.destaque{
+  background:#4c6b7a;
+  color:#fff;
+}
+
+.gallery{
+  display:flex;
+  gap:20px;
+  margin-top:20px;
+}
+
+.gallery img{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:20px;
+}
+
+.contato p{
+  margin:6px 0;
+}
+
+footer{
+  background:#0d4b5c;
+  color:#fff;
+  text-align:center;
+  padding:30px 0;
+}
